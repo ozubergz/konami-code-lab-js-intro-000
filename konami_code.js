@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   document.body.addEventListener('keydown', (e) => {
-    if(codes.include(e.key)) alert(e.key)
+    if(codes.includes(e.key)) alert(e.key)
   });
 }
 
