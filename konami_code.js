@@ -11,11 +11,11 @@ const codes = [
   "a"
 ];
 
-function triggerKeyDown() {
+function init() {
   // your code here
   document.body.addEventListener('keydown', (e) => {
     if(codes.includes(e.key)) alert("Hurray")
   });
 }
 
-triggerKeyDown()
+init()
