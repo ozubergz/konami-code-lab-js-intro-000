@@ -13,7 +13,8 @@ const codes = [
 
 function init() {
   // your code here
-  
+  let index = 0;
+
   document.body.addEventListener('keydown', (e) => {
     // if(codes.includes(e.key)) alert("Hurray")
 
